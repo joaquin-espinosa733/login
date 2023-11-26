@@ -21,7 +21,7 @@
         background-color: #2d3436;
         max-width: 300px;
         /* Aquí defines el ancho máximo que deseas */
-        height: 500px;
+        height: 600px;
         margin-left: auto;
         /* Para centrarlo horizontalmente */
         margin-right: auto;
@@ -118,6 +118,13 @@ input:focus {
     /* Cambiar el color del borde inferior cuando el input está seleccionado */
     outline: none;
     /* Puedes eliminar el contorno predeterminado en el foco si no es necesario */
+}
+
+@media screen and (max-width: 768px) {
+    input {
+        /* Cambia el ancho de los inputs para dispositivos más pequeños */
+        width: 140px; /* Puedes ajustar este valor según tus necesidades */
+    }
 }
 
 

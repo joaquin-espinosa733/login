@@ -9,6 +9,7 @@ function Slider() {
     return (
         <div>
             <Swiper
+            style={{marginLeft:"20px"}}
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={50}
                 slidesPerView={1}
