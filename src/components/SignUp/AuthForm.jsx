@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import styles from './AuthForm.module.css'; // Importa tu archivo CSS module
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstrap
-import Slider from './Slider';
+// import Slider from './Slider';
 
 const AuthForm = () => {
   const [activeForm, setActiveForm] = useState('signin');
@@ -14,9 +14,9 @@ const AuthForm = () => {
   return (
     <div className=' container'>
       <div className=' row d-flex justify-content-center align-items-center'>
-        <div className='col-6 col-xs-4 p-0 m-0'>
+        {/* <div className='col-6 col-xs-4 p-0 '>
           <Slider />
-        </div>
+        </div> */}
         <div className=' col-6 col-xs-8 p-0 m-0'>
           <div className={styles.authContainer}>
             <div className={styles.containerButtons}>
