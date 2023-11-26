@@ -1,0 +1,98 @@
+/* AuthForm.module.css */
+.authContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #2d3436;
+    max-width: 600px;
+    /* Aquí defines el ancho máximo que deseas */
+    height: 630px;
+    margin-left: auto;
+    /* Para centrarlo horizontalmente */
+    margin-right: auto;
+    /* Para centrarlo horizontalmente */
+    border-radius: 10px;
+    box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.327), -10px 0px 20px rgba(0, 0, 0, 0.327);
+}
+
+
+.authForm {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    transition: transform 5s ease;
+    transform: translateX(-100px);
+}
+
+.active {
+    display: flex;
+    transform: translateX(0);
+}
+
+.hidden {
+    display: none;
+}
+
+.buttons {
+    background-color: #636e72;
+    border-top-left-radius: 10px;
+    /* Radio de borde superior izquierdo */
+    border-bottom-left-radius: 10px;
+    /* Radio de borde inferior izquierdo */
+    border: none;
+    color: #dfe6e9;
+    height: 30px;
+}
+
+.buttons2 {
+    background-color: #636e72;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #dfe6e9;
+    border: none;
+    height: 30px;
+}
+
+
+.containerButtons {
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.activeButton {
+    background-color: #55efc4;
+    /* Cambia este color por el que desees para el botón activo */
+    color: white;
+    /* Cambia el color del texto si es necesario */
+    transition: background-color 0.8s ease;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: aqua;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    /* Fuerza a que el fondo sea transparente */
+    transition: background-color 5000s ease-in-out 0s;
+    /* Agrega una transición para el cambio de background */
+}
+
+input {
+    color: aqua;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #636e72;
+    width: 300px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input:focus {
+    border-bottom: 2px solid #55efc4;
+    /* Cambiar el color del borde inferior cuando el input está seleccionado */
+    outline: none;
+    /* Puedes eliminar el contorno predeterminado en el foco si no es necesario */
+}
