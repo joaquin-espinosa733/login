@@ -19,7 +19,7 @@
         align-items: center;
         margin-top: 20px;
         background-color: #2d3436;
-        max-width: 300px;
+        width: 200px;
         /* Aquí defines el ancho máximo que deseas */
         height: 600px;
         /* Para centrarlo horizontalmente */
