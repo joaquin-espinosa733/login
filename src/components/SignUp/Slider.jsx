@@ -16,10 +16,10 @@ function Slider() {
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
             >
-                <SwiperSlide><img src={aver} alt="" width={"100%"} height={"610px"}/></SwiperSlide>
-                <SwiperSlide><img src={aver} alt="" width={"100%"} height={"610px"}/></SwiperSlide>
-                <SwiperSlide><img src={aver} alt="" width={"100%"} height={"610px"}/></SwiperSlide>
-                <SwiperSlide><img src={aver} alt="" width={"100%"} height={"610px"}/></SwiperSlide>
+                <SwiperSlide><img src={aver} alt="" width={"100%"}/></SwiperSlide>
+                <SwiperSlide><img src={aver} alt="" width={"100%"}/></SwiperSlide>
+                <SwiperSlide><img src={aver} alt="" width={"100%"}/></SwiperSlide>
+                <SwiperSlide><img src={aver} alt="" width={"100%"}/></SwiperSlide>
             </Swiper></div>
     )
 }

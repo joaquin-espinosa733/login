@@ -8,9 +8,6 @@
     max-width: 600px;
     /* Aquí defines el ancho máximo que deseas */
     height: 630px;
-    /* Para centrarlo horizontalmente */
-    margin-right: auto;
-    /* Para centrarlo horizontalmente */
 
     box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.327), -10px 0px 20px rgba(0, 0, 0, 0.327);
 }
@@ -24,7 +21,7 @@
         background-color: #2d3436;
         max-width: 300px;
         /* Aquí defines el ancho máximo que deseas */
-        height: 630px;
+        height: 330px;
         margin-left: auto;
         /* Para centrarlo horizontalmente */
         margin-right: auto;
