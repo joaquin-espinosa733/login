@@ -8,11 +8,10 @@
     max-width: 600px;
     /* Aquí defines el ancho máximo que deseas */
     height: 630px;
-    margin-left: auto;
     /* Para centrarlo horizontalmente */
     margin-right: auto;
     /* Para centrarlo horizontalmente */
-    border-radius: 10px;
+
     box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.327), -10px 0px 20px rgba(0, 0, 0, 0.327);
 }
 
@@ -123,3 +122,5 @@ input:focus {
     outline: none;
     /* Puedes eliminar el contorno predeterminado en el foco si no es necesario */
 }
+
+
