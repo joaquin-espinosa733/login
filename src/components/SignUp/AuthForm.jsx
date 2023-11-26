@@ -14,10 +14,10 @@ const AuthForm = () => {
   return (
     <div className=' container'>
       <div className=' row d-flex justify-content-center align-items-center'>
-        <div className='col-6 p-0 m-0'>
+        <div className='col-4 p-0 m-0'>
           <Slider />
         </div>
-        <div className=' col-6 p-0 m-0'>
+        <div className=' col-8 p-0 m-0'>
           <div className={styles.authContainer}>
             <div className={styles.containerButtons}>
               <button

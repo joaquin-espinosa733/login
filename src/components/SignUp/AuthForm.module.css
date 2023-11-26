@@ -14,18 +14,12 @@
 
 @media screen and (max-width: 767px) {
     .authContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-        background-color: #2d3436;
         max-width: 90%;
         /* Aquí defines el ancho máximo que deseas */
         height: 600px;
         /* Para centrarlo horizontalmente */
         margin-right: 20px;
         /* Para centrarlo horizontalmente */
-        box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.327), -10px 0px 20px rgba(0, 0, 0, 0.327);
     }
 }
 
