@@ -59,6 +59,11 @@ const AuthForm = () => {
               <span>Contraseña</span>
               <input type="password" placeholder="Contraseña" />
               <br />
+              <div className={styles.check}>
+                <label htmlFor="miCheckbox">Aceptas los terminos y condiciones</label>
+                <input type="checkbox" id="miCheckbox" name="miCheckbox" className={styles.inputss} />
+              </div>
+              <br />
               <button type="submit" className="btn btn-primary">Registrarse</button>
             </form>
           </div>

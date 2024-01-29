@@ -7,15 +7,15 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Quicksand', sans-serif; /* Aplicar Quicksand a encabezados */
+  font-family: 'PT Serif', sans-serif; /* Aplicar Quicksand a encabezados */
 }
 
 p {
-  font-family: 'Rubik Dirt', sans-serif; /* Aplicar Rubik Dirt a párrafos */
+  font-family: 'PT Serif', sans-serif; /* Aplicar Rubik Dirt a párrafos */
 }
 
 code {
-  font-family: 'Share Tech Mono', monospace; /* Aplicar Share Tech Mono a bloques de código */
+  font-family: 'PT Serif', monospace; /* Aplicar Share Tech Mono a bloques de código */
 }
 
 /* Otros estilos */
